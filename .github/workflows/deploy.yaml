@@ -3,7 +3,6 @@ name: Deploy
 on:
   push:
     branches:
-      - main
       - wrangler-kv-change2
   repository_dispatch:
   schedule:
