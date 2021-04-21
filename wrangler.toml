@@ -10,3 +10,8 @@ crons = ["* * * * *"]
 [site]
 bucket = "out"
 entry-point = "./"
+
+[env.production]
+kv-namespaces = [{binding="KV_STATUS_PAGE", id="xxxx", preview_id=""}]
+zone_id="xxx"
+route="xxx"
