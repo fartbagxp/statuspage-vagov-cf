@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - wrangler-kv-change2
-  repository_dispatch:
   schedule:
     - cron: '0 0 1 * *'
 
