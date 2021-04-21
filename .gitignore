@@ -212,3 +212,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,node,react
+
+worker/
+.envrc
+.direnv/
+out/
+package-lock.json
+public/style.css
