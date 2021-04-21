@@ -1,0 +1,12 @@
+name = "cf-workers-status-page"
+workers_dev = true
+account_id = ""
+type = "webpack"
+webpack_config = "node_modules/flareact/webpack"
+
+[triggers]
+crons = ["* * * * *"]
+
+[site]
+bucket = "out"
+entry-point = "./"
