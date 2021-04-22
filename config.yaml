@@ -35,3 +35,24 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: false
+
+  - id: vagov-lgy-va-gov
+    name: lgy-va-gov
+    url: 'https://lgy.va.gov/lgyhub/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: vagov-mobile-va-gov
+    name: mobile-va-gov
+    url: 'https://mobile.va.gov/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: vagov-developer-va-gov
+    name: developer-va-gov
+    url: 'https://developer.va.gov/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
