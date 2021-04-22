@@ -37,7 +37,6 @@ jobs:
             SECRET_TELEGRAM_API_TOKEN
             SECRET_TELEGRAM_CHAT_ID
             SECRET_DISCORD_WEBHOOK_URL
-          environment: production
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           SECRET_SLACK_WEBHOOK_URL: ${{secrets.SECRET_SLACK_WEBHOOK_URL}}
