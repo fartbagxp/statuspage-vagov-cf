@@ -1,4 +1,4 @@
-name = "monitor"
+name = "vagov"
 workers_dev = true
 account_id = "41c979ec0c01c61c270c515c9b08fc59"
 type = "webpack"

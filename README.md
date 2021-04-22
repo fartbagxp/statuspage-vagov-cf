@@ -10,4 +10,4 @@ The goal is to setup a bunch of statuspages to monitor public facing va.gov webs
 
 ## Deployment
 
-- [va.gov monitor](https://monitor.vagov-cf-statuspage.workers.dev/)
+- [va.gov monitor](https://vagov.statuspage.workers.dev)
