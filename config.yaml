@@ -16,43 +16,78 @@ settings:
 
 monitors:
   - id: vagov-va-gov
-    name: va-gov
+    name: va.gov
     url: 'https://www.va.gov'
     method: GET
     expectStatus: 200
     followRedirect: false
 
-  - id: vagov-myhealth-va-gov
-    name: myhealth-va-gov
+  - id: vagov-myhealth-va-gov-home
+    name: myhealth.va.gov/mhv-portal-web/home
     url: 'https://www.myhealth.va.gov/mhv-portal-web/home'
     method: GET
     expectStatus: 200
     followRedirect: false
 
+  - id: vagov-myhealth-va-gov-refill
+    name: myhealth.va.gov/mhv-portal-web/refill-prescriptions
+    url: 'https://www.myhealth.va.gov/mhv-portal-web/refill-prescriptions'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
   - id: vagov-ebenefits-va-gov
-    name: ebenefits-va-gov
+    name: ebenefits.va.gov
     url: 'https://www.ebenefits.va.gov/ebenefits/homepage'
     method: GET
     expectStatus: 200
     followRedirect: false
 
   - id: vagov-lgy-va-gov
-    name: lgy-va-gov
+    name: lgy.va.gov
     url: 'https://lgy.va.gov/lgyhub/'
     method: GET
     expectStatus: 200
     followRedirect: false
 
   - id: vagov-mobile-va-gov
-    name: mobile-va-gov
+    name: mobile.va.gov
     url: 'https://mobile.va.gov/'
     method: GET
     expectStatus: 200
     followRedirect: false
 
+  - id: vagov-telehealth-va-gov
+    name: telehealth.va.gov
+    url: 'https://telehealth.va.gov/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: vagov-connectedcare-va-gov
+    name: connectedcare.va.gov
+    url: 'https://connectedcare.va.gov/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
   - id: vagov-developer-va-gov
-    name: developer-va-gov
+    name: developer.va.gov
     url: 'https://developer.va.gov/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: vagov-api-va-gov
+    name: api.va.gov
+    url: 'https://api.va.gov/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: veterancrisisline-net
+    name: veterancrisisline.net
+    url: 'https://www.veteranscrisisline.net/'
     method: GET
     expectStatus: 200
     followRedirect: false
