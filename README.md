@@ -7,3 +7,7 @@ The goal is to setup a bunch of statuspages to monitor public facing va.gov webs
 ## Setup
 
 - Install [Wrangler](https://developers.cloudflare.com/workers/cli-wrangler/install-update).
+
+## Deployment
+
+- [va.gov monitor](https://vagov-cf-statuspage.vagov-cf-statuspage.workers.dev/)
