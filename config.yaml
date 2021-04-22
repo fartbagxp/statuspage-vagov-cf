@@ -1,11 +1,10 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack & Discord messages
+  url: 'https://vagov-cf-statuspage.vagov-cf-statuspage.workers.dev/' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
-  collectResponseTimes: false # experimental feature, enable only for <5 monitors or on paid plans
+  collectResponseTimes: true # collects avg response times from CRON locations
 
-  # configurable texts across the status page
   allmonitorsOperational: 'All Systems Operational'
   notAllmonitorsOperational: 'Not All Systems Operational'
   monitorLabelOperational: 'Operational'
@@ -13,14 +12,28 @@ settings:
   monitorLabelNoData: 'No data'
   dayInHistogramNoData: 'No data'
   dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: 'Some checks failed'
+  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
-# list of monitors
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: vagov-va-gov
+    name: vagov-va-gov-uptime-monitor
+    description: 'The frontdoor of va.gov'
+    url: 'https://www.va.gov' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: false
+
+  - id: vagov-myhealth-va-gov
+    name: vagov-myhealth-va-gov-uptime-monitor
+    description: 'A website for veterans health'
+    url: 'https://www.myhealth.va.gov/mhv-portal-web/home'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: vagov-ebenefits-va-gov
+    name: vagov-ebenefits-va-gov-uptime-monitor
+    url: 'https://www.ebenefits.va.gov/ebenefits/homepage'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
