@@ -15,23 +15,21 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: vagov-va-gov
+  - id: va-gov
     name: vagov-va-gov-uptime-monitor
-    description: 'The frontdoor of va.gov'
-    url: 'https://www.va.gov' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
+    url: 'https://www.va.gov'
+    method: GET
+    expectStatus: 200
     followRedirect: false
 
-  - id: vagov-myhealth-va-gov
+  - id: myhealth-va-gov
     name: vagov-myhealth-va-gov-uptime-monitor
-    description: 'A website for veterans health'
     url: 'https://www.myhealth.va.gov/mhv-portal-web/home'
     method: GET
     expectStatus: 200
     followRedirect: false
 
-  - id: vagov-ebenefits-va-gov
+  - id: ebenefits-va-gov
     name: vagov-ebenefits-va-gov-uptime-monitor
     url: 'https://www.ebenefits.va.gov/ebenefits/homepage'
     method: GET

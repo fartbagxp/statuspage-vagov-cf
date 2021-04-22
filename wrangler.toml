@@ -3,13 +3,11 @@ workers_dev = true
 account_id = "41c979ec0c01c61c270c515c9b08fc59"
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
-
-kv-namespaces = [{binding="KV_STATUS_PAGE", id="a9029515178b48729de0fd9bc809324a", preview_id=""}]
+kv_namespaces = [{binding="KV_STATUS_PAGE", id="a9029515178b48729de0fd9bc809324a", preview_id=""}]
 
 [triggers]
-crons = ["*/2 * * * *"]
+crons = ["*/5 * * * *"]
 
 [site]
 bucket = "out"
 entry-point = "./"
-
