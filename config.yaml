@@ -85,9 +85,23 @@ monitors:
     expectStatus: 200
     followRedirect: false
 
+  - id: eauth-va.gov
+    name: eauth.va.gov/accessva
+    url: https://eauth.va.gov/accessva/
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
   - id: veterancrisisline-net
     name: veterancrisisline.net
     url: 'https://www.veteranscrisisline.net/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: dslogon dmdc
+    name: myaccess.dmdc.osd.mil
+    url: https://myaccess.dmdc.osd.mil/identitymanagement/authenticate.do?execution=e1s1
     method: GET
     expectStatus: 200
     followRedirect: false
