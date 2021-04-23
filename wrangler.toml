@@ -6,7 +6,7 @@ webpack_config = "node_modules/flareact/webpack"
 kv_namespaces = [{binding="KV_STATUS_PAGE", id="57d99076edcc4a8396044fedb00c7c6f", preview_id=""}]
 
 [triggers]
-crons = ["*/1 * * * *"]
+crons = ["*/3 * * * *"]
 
 [site]
 bucket = "out"
