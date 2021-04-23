@@ -1,9 +1,12 @@
 name = "vagov"
-workers_dev = true
-account_id = "41c979ec0c01c61c270c515c9b08fc59"
 type = "webpack"
+account_id = "41c979ec0c01c61c270c515c9b08fc59"
+workers_dev = true
+route = ""
+zone_id = ""
 webpack_config = "node_modules/flareact/webpack"
-kv_namespaces = [{ binding = "KV_STATUS_PAGE", id="1f9beb18c65a4fadbdbb454a5473cfbd"}]
+
+kv_namespaces = [{ binding = "KV_STATUS_PAGE", id="1f9beb18c65a4fadbdbb454a5473cfbd" }]
 
 [triggers]
 crons = ["*/3 * * * *"]
