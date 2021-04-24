@@ -1,16 +1,17 @@
 name = "vagov"
-workers_dev = true
-account_id = "41c979ec0c01c61c270c515c9b08fc59"
 type = "webpack"
+account_id = "41c979ec0c01c61c270c515c9b08fc59"
+workers_dev = true
 webpack_config = "node_modules/flareact/webpack"
-kv_namespaces = [{binding="KV_STATUS_PAGE", id="57d99076edcc4a8396044fedb00c7c6f", preview_id=""}]
+
+kv_namespaces = [{ binding = "KV_STATUS_PAGE", id="9d97de822d4941b98b288823fb9a5ff1" }]
 
 [triggers]
-crons = ["*/1 * * * *"]
+crons = ["*/3 * * * *"]
 
 [site]
 bucket = "out"
 entry-point = "./"
 
 [env.production]
-kv_namespaces = [{binding="KV_STATUS_PAGE", id="57d99076edcc4a8396044fedb00c7c6f", preview_id=""}]
+kv_namespaces = [{ binding="KV_STATUS_PAGE", id="9d97de822d4941b98b288823fb9a5ff1" }]
