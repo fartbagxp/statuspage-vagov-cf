@@ -4,7 +4,7 @@ account_id = "41c979ec0c01c61c270c515c9b08fc59"
 workers_dev = true
 webpack_config = "node_modules/flareact/webpack"
 
-kv_namespaces = [{ binding = "KV_STATUS_PAGE", id="f48105fbcc2e4ae297c93d99165a2576" }]
+kv_namespaces = [{ binding = "KV_STATUS_PAGE", id="64693594e9924f8e985ac13b82354b7b" }]
 
 [triggers]
 crons = ["*/3 * * * *"]
