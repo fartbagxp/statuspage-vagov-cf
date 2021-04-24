@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - fixing-dmdc-monitor
   schedule:
     - cron: '0 0 1 * *'
 
