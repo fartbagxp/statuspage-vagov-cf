@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - recreate-vagov
+      - main
   schedule:
     - cron: '0 0 1 * *'
 
