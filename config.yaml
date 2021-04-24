@@ -104,4 +104,4 @@ monitors:
     url: https://myaccess.dmdc.osd.mil/identitymanagement/authenticate.do?execution=e1s1
     method: GET
     expectStatus: 200
-    followRedirect: false
+    followRedirect: true
