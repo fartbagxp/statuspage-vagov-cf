@@ -105,3 +105,17 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
+
+  - id: www-alaska-va-gov
+    name: www.alaska.va.gov
+    url: http://www.alaska.va.gov/
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+
+  - id: www-mentalhealth-va-gov
+    name: www.mentalhealth.va.gov
+    url: https://www.mentalhealth.va.gov/
+    method: GET
+    expectStatus: 200
+    followRedirect: false
