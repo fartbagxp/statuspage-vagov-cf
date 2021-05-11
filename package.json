@@ -1,5 +1,5 @@
 {
-  "name": "vagov-cf-statuspage",
+  "name": "statuspage-vagov-cf",
   "version": "1.0.0",
   "description": "the statuspage for va.gov",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-fartbagxp:fartbagxp/vagov-cf-statuspage.git"
+    "url": "git@github.com-fartbagxp:fartbagxp/statuspage-vagov-cf.git"
   },
   "keywords": [
     "statuspage",
@@ -31,9 +31,9 @@
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "node-fetch": "^2.6.1",
-    "postcss": "^8.2.14",
+    "postcss": "^8.2.15",
     "postcss-cli": "^8.3.1",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.0",
     "tailwindcss": "^2.1.2",
     "yaml-loader": "^0.6.0"
   }
