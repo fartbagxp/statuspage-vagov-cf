@@ -108,7 +108,7 @@ monitors:
 
   - id: www-alaska-va-gov
     name: www.alaska.va.gov
-    url: http://www.alaska.va.gov/
+    url: https://www.alaska.va.gov/
     method: GET
     expectStatus: 200
     followRedirect: false
