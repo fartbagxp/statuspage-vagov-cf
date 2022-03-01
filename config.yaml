@@ -111,7 +111,7 @@ monitors:
     url: https://www.alaska.va.gov/
     method: GET
     expectStatus: 200
-    followRedirect: false
+    followRedirect: true
 
   - id: www-mentalhealth-va-gov
     name: www.mentalhealth.va.gov
