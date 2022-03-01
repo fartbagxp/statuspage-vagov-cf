@@ -22,19 +22,19 @@
   "author": "Boris Ning",
   "license": "MIT",
   "dependencies": {
-    "flareact": "1.1.0",
+    "flareact": "1.5.0",
     "laco": "1.2.1",
     "laco-react": "1.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "node-fetch": "^2.6.1",
-    "postcss": "^8.2.15",
-    "postcss-cli": "^8.3.1",
-    "prettier": "^2.3.0",
-    "tailwindcss": "^2.1.2",
+    "autoprefixer": "^10.4.2",
+    "node-fetch": "^3.2.1",
+    "postcss": "^8.4.7",
+    "postcss-cli": "^9.1.0",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.23",
     "yaml-loader": "^0.6.0"
   }
 }
